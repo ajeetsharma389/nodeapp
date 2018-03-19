@@ -1,0 +1,63 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'app.js' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.4
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData app.js
+8 silly fetchOtherPackageData app.js
+9 silly cache add args [ 'app.js', null ]
+10 verbose cache add spec app.js
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'app.js',
+11 silly cache add   scope: null,
+11 silly cache add   escapedName: 'app.js',
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'app.js',
+11 silly cache add   spec: '/Users/ajeet/Documents/Devops/nodeapp/app.js',
+11 silly cache add   type: 'local' }
+12 silly addLocalTarball shasum (computed) 35cf343cfe6c5374158285aaf9f0a3e7f4171f90
+13 verbose addTmpTarball /Users/ajeet/Documents/Devops/nodeapp/app.js not in flight; adding
+14 verbose correctMkdir /Users/ajeet/.npm correctMkdir not in flight; initializing
+15 verbose makeDirectory /Users/ajeet/.npm creation not in flight; initializing
+16 silly makeDirectory /Users/ajeet/.npm uid: 502 gid: 20
+17 verbose addTmpTarball validating metadata from /Users/ajeet/Documents/Devops/nodeapp/app.js
+18 verbose tar unpack /Users/ajeet/Documents/Devops/nodeapp/app.js
+19 verbose tar unpacking to /var/folders/pl/mdz0tssx4f15m7v_3ch7bd380000gp/T/npm-57304-2eb9361a/unpack-bcf6ed24
+20 silly gentlyRm /var/folders/pl/mdz0tssx4f15m7v_3ch7bd380000gp/T/npm-57304-2eb9361a/unpack-bcf6ed24 is being purged
+21 verbose gentlyRm don't care about contents; nuking /var/folders/pl/mdz0tssx4f15m7v_3ch7bd380000gp/T/npm-57304-2eb9361a/unpack-bcf6ed24
+22 silly gunzTarPerm modes [ '755', '644' ]
+23 error not a package /Users/ajeet/Documents/Devops/nodeapp/app.js
+24 error addLocal Could not install /Users/ajeet/Documents/Devops/nodeapp/app.js
+25 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/var/folders/pl/mdz0tssx4f15m7v_3ch7bd380000gp/T/npm-57304-2eb9361a/unpack-bcf6ed24/package.json'
+25 silly fetchPackageMetaData     at Error (native)
+25 silly fetchPackageMetaData  error for app.js { Error: ENOENT: no such file or directory, open '/var/folders/pl/mdz0tssx4f15m7v_3ch7bd380000gp/T/npm-57304-2eb9361a/unpack-bcf6ed24/package.json'
+25 silly fetchPackageMetaData     at Error (native)
+25 silly fetchPackageMetaData   errno: -2,
+25 silly fetchPackageMetaData   code: 'ENOENT',
+25 silly fetchPackageMetaData   syscall: 'open',
+25 silly fetchPackageMetaData   path: '/var/folders/pl/mdz0tssx4f15m7v_3ch7bd380000gp/T/npm-57304-2eb9361a/unpack-bcf6ed24/package.json' }
+26 silly rollbackFailedOptional Starting
+27 silly rollbackFailedOptional Finishing
+28 silly runTopLevelLifecycles Finishing
+29 silly install printInstalled
+30 verbose stack Error: ENOENT: no such file or directory, open '/var/folders/pl/mdz0tssx4f15m7v_3ch7bd380000gp/T/npm-57304-2eb9361a/unpack-bcf6ed24/package.json'
+30 verbose stack     at Error (native)
+31 verbose cwd /Users/ajeet/Documents/Devops/nodeapp
+32 error Darwin 16.7.0
+33 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "app.js"
+34 error node v6.9.4
+35 error npm  v3.10.10
+36 error path /var/folders/pl/mdz0tssx4f15m7v_3ch7bd380000gp/T/npm-57304-2eb9361a/unpack-bcf6ed24/package.json
+37 error code ENOENT
+38 error errno -2
+39 error syscall open
+40 error enoent ENOENT: no such file or directory, open '/var/folders/pl/mdz0tssx4f15m7v_3ch7bd380000gp/T/npm-57304-2eb9361a/unpack-bcf6ed24/package.json'
+41 error enoent ENOENT: no such file or directory, open '/var/folders/pl/mdz0tssx4f15m7v_3ch7bd380000gp/T/npm-57304-2eb9361a/unpack-bcf6ed24/package.json'
+41 error enoent This is most likely not a problem with npm itself
+41 error enoent and is related to npm not being able to find a file.
+42 verbose exit [ -2, true ]
